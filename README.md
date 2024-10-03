@@ -1,19 +1,36 @@
 # Boston Housing Price Prediction
-
 This project aims to predict house prices using the Boston Housing dataset. The notebook covers data exploration, preprocessing, feature engineering, model building, and evaluation using various machine learning techniques.
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Data Exploration and Visualization](#data-exploration-and-visualization)
-3. [Data Preprocessing and Feature Engineering](#data-preprocessing-and-feature-engineering)
-4. [Model Building and Evaluation](#model-building-and-evaluation)
-5. [Advanced ML Challenge](#advanced-ml-challenge)
-6. [Results](#results)
+2. [How to Run the Code](#how-to-run-the-code)
+3. [Data Exploration and Visualization](#data-exploration-and-visualization)
+4. [Data Preprocessing and Feature Engineering](#data-preprocessing-and-feature-engineering)
+5. [Model Building and Evaluation](#model-building-and-evaluation)
+6. [Advanced ML Challenge](#advanced-ml-challenge)
+7. [Results](#results)
+8. [Conclusion](#conclusion)
 
 ## Introduction
 
 The goal of this project is to predict the median value of owner-occupied homes (`MEDV`) in the Boston area using various features from the dataset.
+
+## How to Run the Code
+
+1. **Install the required packages:**
+    - Run the following command to install the necessary packages:
+      ```sh
+      pip install -r requirements.txt
+      ```
+
+2. **Run the Jupyter Notebook:**
+    - Open a terminal and navigate to the project directory.
+    - Start the Jupyter Notebook server by running:
+      ```sh
+      jupyter notebook
+      ```
+    - Open the notebook file and run the cells to execute the code.
 
 ## Data Exploration and Visualization
 
