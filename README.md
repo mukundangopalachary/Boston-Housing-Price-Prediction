@@ -98,7 +98,7 @@ The results of the models are compared based on Mean Squared Error (MSE) and R-s
     - Mean Squared Error: `mse`
     - R Squared Error: `r2`
 
-From the results, we can conclude that the `RandomForestRegressor` has a lower error rate compared to `LinearRegression` and `LinearRegression_NeuralNetwork`.
+From the results, we can conclude that the `RandomForestRegressor` has LOWER MSE compared to `LinearRegression` & `LinearRegression_NeuralNetwork` and  `LinearRegression_NeuralNetwork` has HIGHER RSE than `RandomForestRegressor` and `LinearRegression` model.
 
 ## Conclusion
 
